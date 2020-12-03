@@ -13,6 +13,7 @@ class Song
   end
 
   def artist_name
+    return nil if !self.artist
     self.artist.name
 
   end
